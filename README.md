@@ -3,7 +3,7 @@
 ## Overview
 This tutorial demonstrates how to build a simple Solana program that interacts with Bonsol, a decentralized compute platform on Solana. We'll create a program that sends a "Hello, World!" message using Bonsol's execution environment.
 
-## Key Concepts
+**Key Concepts**
 1. Bonsol Program Architecture
 - Main Program: Your Solana program written in Rust using Anchor
 - Execution Request: A transaction that requests Bonsol to run your code
@@ -18,12 +18,12 @@ This tutorial demonstrates how to build a simple Solana program that interacts w
 - Bonsol processes the request
 - Results are returned via callback
 
-## Prerequisites
+**Prerequisites**
 - Solana CLI tools installed
 - Anchor framework set up
 - Basic understanding of Rust and Solana development
 
-## What We're Building
+**What We're Building**
 The program will:
 1. Accept a name input
 2. Send it to Bonsol for processing

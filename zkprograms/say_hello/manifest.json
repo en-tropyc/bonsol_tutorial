@@ -1,0 +1,10 @@
+{
+  "name": "say_hello",
+  "binaryPath": "./target/riscv-guest/riscv32im-risc0-zkvm-elf/docker/say_hello/say_hello",
+  "imageId": "7f8ebdabe3ed69b8d47b2cbc86e8668d171e1a0ced01610fd1ecc224db69767b",
+  "inputOrder": [
+    "Public"
+  ],
+  "signature": "58VFPT6sk9nzYKBXeCtg9PrPEzx7s1G25sTc21nf5s3Ms9ukps1iGcJY6yCx3e6BzHWGcwenGnATbTnRe8A5F4nL",
+  "size": 99836
+}

@@ -1,6 +1,6 @@
-# Bonsol Hello World Tutorial
+# Hello, Bonsol!
 
-## Overview
+## 0. Overview
 This tutorial demonstrates how to build a simple Solana program that interacts with Bonsol, a decentralized compute platform on Solana. We'll create a program that sends a "Hello, World!" message using Bonsol's execution environment.
 
 **Key Concepts**

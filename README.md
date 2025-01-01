@@ -1,22 +1,32 @@
-# Hello, Bonsol!
+# Hello Bonsol! An Introductory Tutorial
 
-## 0. Overview
 This tutorial demonstrates how to build a simple Solana program that interacts with Bonsol, a decentralized compute platform on Solana. We'll create a program that sends a "Hello, World!" message using Bonsol's execution environment.
 
-**Key Concepts**
-1. Bonsol Program Architecture
-- Main Program: Your Solana program written in Rust using Anchor
-- Execution Request: A transaction that requests Bonsol to run your code
-- Callback Handling: How your program receives and processes results from Bonsol
-2. Core Components
-- Image ID: A unique identifier for the Bonsol compute image you want to run
-- PDA (Program Derived Address): An account address derived from your program
-- Execution Request Account: Stores the state and results of your Bonsol execution
-3. Flow of Execution
-- User initiates a transaction
-- Program creates an execution request
-- Bonsol processes the request
-- Results are returned via callback
+### 1. Bonsol Program Architecture
+
+| Component          | Description                                               |
+|-------------------|----------------------------------------------------------|
+| Main Program      | Your Solana program written in Rust using Anchor         |
+| Execution Request | A transaction that requests Bonsol to run your code      |
+| Callback Handling | How your program receives and processes results from Bonsol |
+
+### 2. Core Components
+
+| Component                 | Description                                               |
+|--------------------------|----------------------------------------------------------|
+| Image ID                 | A unique identifier for the Bonsol compute image you want to run |
+| PDA                      | Program Derived Address - an account address derived from your program |
+| Execution Request Account| Stores the state and results of your Bonsol execution    |
+
+### 3. Flow of Execution
+
+| Step | Action                                                     |
+|------|----------------------------------------------------------|
+| 1    | User initiates a transaction                              |
+| 2    | Program creates an execution request                      |
+| 3    | Bonsol processes the request                             |
+| 4    | Results are returned via callback                         |
+
 
 **Prerequisites**
 - Solana CLI tools installed

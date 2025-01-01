@@ -310,5 +310,22 @@ describe("hello_bonsol", () => {
   });
 });
 ```
+You can verify that the test is passing from the logs:
+
+```bash
+Payer pubkey: 3PDGSWCpQpgpfpyLALKno9ygotcJZArFbDxa4evUY6Ls
+Execution request pubkey: BTqYvb7pY7xj7tnCiqyBFWkWdN49xaVzEhw48T5e5yjc
+Transaction signature: 4r2EWmHYYX7zreaYxBs3hSfLgoMQu2jnEBdDjkbhc42okLnzxh4GMvWXTEqa7oPABWfbJ8cA7Lk1zFgQKs4hFrEX
+View transaction: https://explorer.solana.com/tx/4r2EWmHYYX7zreaYxBs3hSfLgoMQu2jnEBdDjkbhc42okLnzxh4GMvWXTEqa7oPABWfbJ8cA7Lk1zFgQKs4hFrEX?cluster=devnet
+Transaction successful!
+    ✔ Requests hello world execution (5894ms)
+
+
+  1 passing (6s)
+
+✨  Done in 7.27s.
+```
 
 You should now be able to check the explorer to see the transaction and the callback.
+<img width="1164" alt="image" src="https://github.com/user-attachments/assets/541a3e59-12e3-45fb-b9b7-cb0e4e08cdaa" />
+

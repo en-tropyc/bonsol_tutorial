@@ -9,9 +9,9 @@ use bonsol_interface::{
 };
 use base64::Engine as _;
 
-declare_id!("B1AJLQqKJPdaFM45ZojBQYGfGQ8v6ysCBVtAUsgwVvkb");
+declare_id!("AL2sWHZ42EymvGFLDHszdDwsXqBtxTg1wWhc4wesQEku");
 
-const HELLO_IMAGE_ID: &str = "dcf7509f3f8fc58f90a99dab085e3b60fcbdd7a169b2c5e3b73af2f35ad480a0";
+const HELLO_IMAGE_ID: &str = "7f8ebdabe3ed69b8d47b2cbc86e8668d171e1a0ced01610fd1ecc224db69767b";
 
 #[program]
 pub mod hello_bonsol {
@@ -27,7 +27,7 @@ pub mod hello_bonsol {
             HELLO_IMAGE_ID,
             &input_data,
             vec![InputRef::public(input_bytes)],
-            1, // tip
+            12000, // tip
             100,
             ExecutionConfig {
                 verify_input_hash: false,

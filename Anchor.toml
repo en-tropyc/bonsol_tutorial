@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-hello_bonsol_tutorial = "B1AJLQqKJPdaFM45ZojBQYGfGQ8v6ysCBVtAUsgwVvkb"
+hello_bonsol_tutorial = "AL2sWHZ42EymvGFLDHszdDwsXqBtxTg1wWhc4wesQEku"
 
 [registry]
 url = "https://api.apr.dev"

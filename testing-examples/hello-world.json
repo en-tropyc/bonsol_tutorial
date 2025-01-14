@@ -1,0 +1,20 @@
+{
+  "imageId": "7f8ebdabe3ed69b8d47b2cbc86e8668d171e1a0ced01610fd1ecc224db69767b",
+  "executionConfig": {
+    "verifyInputHash": false,
+    "forwardOutput": true
+  },
+  "inputs": [
+    {
+      "inputType": "PublicData",
+      "data": "Hello, World!"
+    }
+  ],
+  "tip": 12000,
+  "expiry": 100,
+  "callbackConfig": {
+    "programId": "AL2sWHZ42EymvGFLDHszdDwsXqBtxTg1wWhc4wesQEku",
+    "instructionPrefix": [0],
+    "extraAccounts": []
+  }
+}

@@ -87,7 +87,7 @@ cd say_hello
 bonsol build --zk-program-path .
 ```
 
-This will create a `target/` directory containing a `manifest.json` file. This manifest file contains all the information needed to deploy your program. Example manifest.json:
+This will create a `target/` directory and a `manifest.json` file. This manifest file contains all the information needed to deploy your program. Example manifest.json:
 
 ```json
 {
